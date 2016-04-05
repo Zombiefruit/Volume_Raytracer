@@ -23,7 +23,7 @@ And here are two images of a volume representing a lens. The banding is due to t
 ![Lens from the side](/Lens2.png)
 
 # Running the application
-All you have to do is download the source, run "make" in the source directory, and then run "./volren <*file*.pvm>", where *file* is one of the .pvm files included (i.e. "./volren Hydrogen.pvm" will run the application with the Hydrogen volume). Pressing the '+' and '-' keys increase and decrease the density factor. The '<' and '>' keys modify the slice-spacing. Pressing '4' will visualize reflection and refraction. 
+All you have to do is download the source, run "make" in the source directory, and then run "./volren <*file*.pvm>", where *file* is one of the .pvm files included (i.e. "./volren Hydrogen.pvm" will run the application with the Hydrogen volume).
 
 # Disclaimer
 Our task was to modify the refractionOrReflectionDirection(), lookupBackgroundTexture(), and main() functions in the trace.frag shader. We were supplied with the other code, which was written by Professor James Stewart, at Queen's University (http://research.cs.queensu.ca/~jstewart/).
